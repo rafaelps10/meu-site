@@ -60,6 +60,7 @@ const SITE = {
     "Certificação AWS Cloud Practitioner",
     "Graduação re/Start - Escola da Nuvem",
     "Graduação em Análise e Desenvolvimento de Sistemas",
+    "Formação Web Full Stack Developer",
     
   ],
   contato: "Aberto a oportunidades, projetos e conversas. A forma mais rápida de falar comigo é por e-mail."
