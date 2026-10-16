@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafael PS — Portfólio</title>
+    <meta
+      name="description"
+      content="Portfólio de projetos, tecnologias e contato."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="side">
+        <div>
+          <p class="brand" id="brand"></p>
+          <p class="role" id="role"></p>
+        </div>
+        <nav class="nav" aria-label="Seções">
+          <a href="#inicio">Início</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#tecnologias">Tecnologias</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+        <div class="socials" id="socials"></div>
+      </aside>
+
+      <main>
+        <section id="inicio">
+          <h1 id="headline"></h1>
+          <p class="lead" id="intro"></p>
+          <a class="btn" href="#projetos">Ver projetos</a
+          ><a class="btn ghost" href="#contato">Entrar em contato</a>
+        </section>
+
+        <section id="projetos">
+          <h2>Projetos</h2>
+          <p class="hint" id="filter-hint">
+            Escolha uma tecnologia abaixo para filtrar os projetos.
+          </p>
+          <div
+            class="chips"
+            id="filters"
+            role="group"
+            aria-label="Filtrar projetos por tecnologia"
+          ></div>
+          <div
+            class="projects"
+            id="projects"
+            aria-live="polite"
+            style="margin-top: 24px"
+          ></div>
+        </section>
+
+        <section id="tecnologias">
+          <h2>Tecnologias</h2>
+          <p class="hint">
+            O que eu uso no dia a dia e o que estou aprendendo.
+          </p>
+          <div class="chips" id="stack"></div>
+        </section>
+
+        <section id="sobre">
+          <h2>Sobre mim</h2>
+          <div class="prose" id="about"></div>
+          <ul class="facts" id="facts"></ul>
+        </section>
+
+        <section id="contato">
+          <h2>Contato</h2>
+          <div class="prose"><p id="contact-text"></p></div>
+          <p><a class="btn" id="email-btn" href="#">Enviar e-mail</a></p>
+        </section>
+
+        <footer id="footer"></footer>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
