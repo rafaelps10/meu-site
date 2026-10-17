@@ -56,7 +56,7 @@ const SITE = {
     Busco integrar conhecimentos técnicos com experiências anteriores para entregar soluções eficientes.`
   ],
   fatos: [
-    "Certificação AWS Solutuions Architect - Associate (Em andamento)",
+    "Certificação AWS Solutions Architect - Associate (Em andamento)",
     "Certificação AWS Cloud Practitioner",
     "Graduação re/Start - Escola da Nuvem",
     "Graduação em Análise e Desenvolvimento de Sistemas",
